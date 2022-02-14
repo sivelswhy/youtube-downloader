@@ -1,17 +1,40 @@
 {
-  "name": "cli-app-public",
-  "version": "1.0.0",
+  "name": "youtube-downloading",
+  "version": "1.0.4",
   "description": "A simple way to download youtube videos to mp3 in your terminal",
-  "main": "src/index.js",
+  "bin": "src/index.js",
   "type": "module",
+  "homepage": "https://github.com/sivelswhy/youtube-downloader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sivelswhy/youtube-downloader.git"
+  },
+  "funding": {
+    "type": "ko-fi",
+    "url": "https://ko-fi.com/sivelswhy"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sivelswhy/youtube-downloader/issues"
+  },
+  "keywords": [
+    "youtube-mp3",
+    "youtube",
+    "ytdl",
+    "ytdl-core",
+    "download",
+    "youtube mp3"
+  ],
+  "author": {
+    "name": "Sivels Why",
+    "url": "https://github.com/sivelswhy/"
+  },
   "dependencies": {
     "chalk": "^5.0.0",
     "chalk-animation": "^1.6.0",
     "color": "^4.2.1",
-    "downloads-folder": "^3.0.1",
     "inquirer": "^8.2.0",
     "nanospinner": "^1.0.0",
-    "nexe": "^4.0.0-beta.19",
     "username": "^6.0.0",
     "ytdl-core": "^4.10.1"
   }

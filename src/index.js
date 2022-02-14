@@ -15,12 +15,12 @@ let user = await username()
 async function welcome() {
   console.clear();
   const Title = chalkAnimation.neon(
-    `Bienvenue sur le téléchargeur de vidéo Youtube avec le Terminal\n`
+    `Welcome to the Downloader of YouTube video with the Terminal\n`
   );
   await sleep();
   Title.stop();
   console.log(`
-        ${chalk.cyan(`CLI App créer par Sivels#0001, All rights reserved\n`)}`);
+        ${chalk.cyan(`CLI App made by Sivels#0001, All rights reserved\n`)}`);
   console.log(`
                 ${chalk.cyan`https://github.com/sivelswhy`}\n`);
 }
@@ -58,7 +58,7 @@ async function downloadvid() {
   stream.pipe(fs.createWriteStream(`C:/Users/${user}/Downloads/${newvideo_titlex2}.mp3`));
   stream.on("finish", function() {
       spinner.success({ text: "The video is now downloaded !\n" });
-      console.log(`You can now find the file in C:/Users/${user}/Downloads/`)
+      console.log(`You can now find the file under C:/Users/${user}/Downloads/`)
   });
 }
 await welcome();
