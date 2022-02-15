@@ -1,6 +1,6 @@
 {
   "name": "youtube-downloading",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple way to download youtube videos to mp3 in your terminal",
   "bin": "src/index.js",
   "type": "module",

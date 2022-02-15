@@ -46,6 +46,19 @@ async function askLink() {
     process.exit(1);
   }
 }
+async function fileType() {
+  const answerFile = await inquirer.prompt({
+    name: "file_type",
+    type: "list",
+    message:
+      "In which file type do you want to store the video",
+    choices: [
+      ".mp3",
+      ".mp4",
+    ],
+  });
+  return answerFile.file_type
+}
 async function downloadvid() {
   const spinner = createSpinner(
     "The video is being downloaded."
@@ -55,13 +68,14 @@ async function downloadvid() {
   const video_title = (infolink.videoDetails.title)
   const newvideo_title = video_title.replace(/\s+/g, '-').toLowerCase();
   const newvideo_titlex2 = newvideo_title.replace('?', '-').replace('\\', '-').replace('/', '-').replace(':', '-').replace('*', '-').replace('"', '-').replace('<', '-').replace('>', '-').replace('|', '-')
-  stream.pipe(fs.createWriteStream(`C:/Users/${user}/Downloads/${newvideo_titlex2}.mp3`));
+  stream.pipe(fs.createWriteStream(`C:/Users/${user}/Downloads/${newvideo_titlex2}${value}`));
   stream.on("finish", function() {
       spinner.success({ text: "The video is now downloaded !\n" });
-      console.log(`You can now find the file under C:/Users/${user}/Downloads/`)
+      console.log(`You can now find the file under C:/Users/${user}/Downloads/${newvideo_titlex2}${value}`)
   });
 }
 await welcome();
 const linkask = await askLink()
+const value = await fileType() 
 console.log(`\n\n`);
 await downloadvid();

@@ -1,3 +1,5 @@
+https://img.shields.io/github/languages/code-size/sivelswhy/youtube-downloader?style=for-the-badge https://img.shields.io/github/stars/sivelswhy/youtube-downloader?style=for-the-badge https://img.shields.io/npm/v/youtube-downloading?style=for-the-badge
+
 # YouTube Downloading
 
 ## Introduction
