@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/github/languages/code-size/sivelswhy/youtube-downloader?style=for-the-badge"> <img src="https://img.shields.io/github/stars/sivelswhy/youtube-downloader?style=for-the-badge"> <img src="https://img.shields.io/npm/v/youtube-downloading?style=for-the-badge">
+<img src="https://img.shields.io/github/languages/code-size/sivelswhy/youtube-downloader?style=for-the-badge"> <img src="https://img.shields.io/github/stars/sivelswhy/youtube-downloader?style=for-the-badge"> <img src="https://img.shields.io/npm/v/youtube-downloading?style=for-the-badge"><script type='text/javascript' src='https://ko-fi.com/widgets/CounterWidget.js'></script><script type='text/javascript'>counterwidget.init('O5O66KNPO');counterwidget.draw();</script>
 
 # YouTube Downloading
 
