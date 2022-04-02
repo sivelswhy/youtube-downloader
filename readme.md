@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/github/languages/code-size/sivelswhy/youtube-downloader?style=for-the-badge"> <img src="https://img.shields.io/github/stars/sivelswhy/youtube-downloader?style=for-the-badge"> <img src="https://img.shields.io/npm/v/youtube-downloading?style=for-the-badge">
+<img src="https://img.shields.io/github/languages/code-size/sivelswhy/youtube-downloader?style=for-the-badge"> <img src="https://img.shields.io/github/stars/sivelswhy/youtube-downloader?style=for-the-badge"> <a href="https://www.npmjs.com/package/youtube-downloading"></a><img src="https://img.shields.io/npm/v/youtube-downloading?style=for-the-badge">
 
 # YouTube Downloading
 
