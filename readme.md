@@ -16,6 +16,8 @@ Don't hesitate to improve this package on [github](https://github.com/sivelswhy/
 
 #### Recent changes
 
+- <u>**1.3.0 :**</u> Modified the valition of youtube URL and how the path is created & minor changes
+  
 - <u>**1.2.0 :**</u> Made the code only available for Windows (cause i'm lazy to make it work on other platforms)
 - Added file name checker (if it contains carachters that are not allowed in windows file names)
 - Added Checking if the video is private or unlisted (for privacy reasons)
